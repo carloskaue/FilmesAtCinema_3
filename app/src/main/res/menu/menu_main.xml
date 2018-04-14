@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miAlpha"
+        android:icon="@drawable/ic_sort_alphabetical_white_18dp"
+        app:showAsAction="ifRoom"
+        android:title="Ordem alfabética" />
+    <item
+        android:id="@+id/miCrono"
+        android:icon="@drawable/ic_sort_ascending_white_18dp"
+        app:showAsAction="ifRoom"
+        android:title="Ordem cronológica" />
+
+    <item
+        android:id="@+id/miConfig"
+        android:icon="@drawable/ic_dots_vertical_white_18dp"
+        app:showAsAction="always"
+        android:title="Configurações">
+
+        <menu>
+            <item
+                android:id="@+id/miConfigurar"
+                android:title="Configurações"/>
+
+            <item
+                android:id="@+id/miSinc"
+                android:title="Sincronizar"/>
+
+            <item
+                android:id="@+id/miAdd"
+                android:title="Adicionar Filme" />
+
+        </menu>
+
+    </item>
+
+</menu>
